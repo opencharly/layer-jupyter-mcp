@@ -137,12 +137,6 @@ The `jupyter` MCP server name is **deliberately decoupled** from the candy name,
 
 **Package/candy/box names describe the artifact; the MCP name describes the service contract.** Rename the artifact freely; the contract is stable.
 
-## Used In Candies
-
-
-## Used In Boxes
-
-
 ## Related Skills
 
 - `/charly-image:layer` — candy authoring rules (Tier 1 pattern)
