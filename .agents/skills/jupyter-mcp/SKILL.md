@@ -137,8 +137,18 @@ The `jupyter` MCP server name is **deliberately decoupled** from the candy name,
 
 **Package/candy/box names describe the artifact; the MCP name describes the service contract.** Rename the artifact freely; the contract is stable.
 
+## Used In Candies
+
+- `/charly-jupyter:jupyter` — lightweight multi-arch JupyterLab (`candy: [jupyter-mcp]`)
+
+## Used In Boxes
+
+- `/charly-jupyter:jupyter`
+- `/charly-jupyter:jupyter-ml-notebook`
+
 ## Related Skills
 
+- `/charly-jupyter:jupyter` — lightweight Tier 2 parent candy
 - `/charly-image:layer` — candy authoring rules (Tier 1 pattern)
 - `/charly-build:charly-mcp-cmd` — client-side verb for probing this server's tool catalog (ping, list-tools, call); use `charly check live jupyter --filter mcp` to see the tools this candy registers
 - `/charly-hermes:hermes` — downstream MCP consumer (auto-discovers `jupyter` via `CHARLY_MCP_SERVERS`; uses the tools to read/edit/execute notebook cells programmatically)

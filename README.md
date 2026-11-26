@@ -61,8 +61,7 @@ curl -s -o /dev/null -w '%{http_code}\n' -X POST http://localhost:8888/mcp
 ## Related
 
 - Owning skill: `/charly-jupyter:jupyter-mcp` — the CRDT MCP server extension
-- Parent candies: `/charly-jupyter:jupyter` (lightweight), `/charly-jupyter:jupyter-ml` (GPU)
+- Parent candy: `/charly-jupyter:jupyter` (lightweight)
 - Downstream MCP consumers: `/charly-hermes:hermes`, `/charly-openwebui:openwebui`
-- Sibling MCP provider: `/charly-selkies:chrome-devtools-mcp`
 - [`opencharly/charly`](https://github.com/opencharly/charly) — the charly CLI and image builder
 - [`opencharly/opencharly`](https://github.com/opencharly/opencharly) — the umbrella
